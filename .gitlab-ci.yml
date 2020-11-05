@@ -45,18 +45,6 @@
 image: alpine:latest
 
 variables:
-  test: TEST_DISABLED
-  performance: PERFORMANCE_DISABLED
-  load_performance: LOAD_PERFORMANCE_DISABLED
-  sast: SAST_DISABLED
-  secret_detection: SECRET_DETECTION_DISABLED
-  dependency_scanning: DEPENDENCY_SCANNING_DISABLED
-  container_scanning: CONTAINER_SCANNING_DISABLED
-  dast: DAST_DISABLED
-  review: REVIEW_DISABLED
-  stop_review: REVIEW_DISABLED
-  code_intelligence: CODE_INTELLIGENCE_DISABLED
-
   # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
   # KUBE_INGRESS_BASE_DOMAIN: domain.example.com
 
